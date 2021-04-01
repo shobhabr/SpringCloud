@@ -1,0 +1,4 @@
+# Project exclude paths
+/guest-srevices/target/
+/reservation-services/target/
+/room-services/target/
