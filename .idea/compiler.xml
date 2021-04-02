@@ -9,11 +9,13 @@
         <module name="config-server" />
         <module name="room-services" />
         <module name="guest-srevices" />
+        <module name="eureka-server" />
         <module name="reservation-services" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="config-server" target="11" />
+      <module name="eureka-server" target="11" />
       <module name="guest-srevices" target="11" />
       <module name="reservation-services" target="11" />
       <module name="room-services" target="11" />
@@ -22,6 +24,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="config-server" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
       <module name="guest-srevices" options="-parameters" />
       <module name="reservation-services" options="-parameters" />
       <module name="room-services" options="-parameters" />
