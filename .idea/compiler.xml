@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="config-server" />
         <module name="room-services" />
         <module name="guest-srevices" />
         <module name="reservation-services" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="config-server" target="11" />
       <module name="guest-srevices" target="11" />
       <module name="reservation-services" target="11" />
       <module name="room-services" target="11" />
@@ -19,6 +21,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config-server" options="-parameters" />
       <module name="guest-srevices" options="-parameters" />
       <module name="reservation-services" options="-parameters" />
       <module name="room-services" options="-parameters" />
