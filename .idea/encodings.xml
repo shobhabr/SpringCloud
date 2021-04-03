@@ -5,6 +5,8 @@
     <file url="file://$PROJECT_DIR$/eureka-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/guest-srevices/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/reservation-services/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/room-reservation-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/room-reservation-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/room-services/src/main/java" charset="UTF-8" />
   </component>
 </project>
